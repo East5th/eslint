@@ -1,0 +1,1 @@
+eslint = Npm.require('eslint');
