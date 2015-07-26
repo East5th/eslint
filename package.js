@@ -1,7 +1,7 @@
 Package.describe({
-  name: 'eslint',
+  name: 'east5th:eslint',
   version: '0.0.1',
-  summary: 'Exports eslint global',
+  summary: 'Exports eslint global to server',
   git: 'https://github.com/East5th/eslint.git',
   documentation: 'README.md',
   debugOnly: true
