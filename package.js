@@ -1,6 +1,6 @@
 Package.describe({
   name: 'east5th:eslint',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Exports eslint global to server',
   git: 'https://github.com/East5th/eslint.git',
   documentation: 'README.md',
@@ -9,7 +9,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
-  api.addFiles('eslint.js');
+  api.addFiles('eslint.js', 'server');
   api.export('eslint', 'server');
 });
 
